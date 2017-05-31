@@ -17,12 +17,12 @@ body {
 $header_height: 120px;
 $BLUE: #0D5CA3;
 $footer_color: #313131;
-$demo_background_color:#28B2C9;
-$ig_background_color:#fffff;
+$demo_background_color: #28B2C9;
+$ig_background_color: #FFFFFF;
 /*------------------------------*/
 .header {
 	background-color: $BLUE;
-	height:$header_height;
+	height: $header_height;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -50,18 +50,10 @@ $ig_background_color:#fffff;
 		padding-top: $header_height;
 	}
 }
-
-
-
-
-
 .socialIcons {
-
 	vertical-align: middle;
-
-	font-weight:600;
+	font-weight: 600;
 	font-size: 14px;
-
 	text-align: center;
 
 	.fa{
@@ -70,53 +62,52 @@ $ig_background_color:#fffff;
 		height: 23px;
 		line-height: 23px;
 		text-align: center;
-		background:#c0bebe;
+		background: #c0bebe;
 		border-radius: 100%;
 		margin: 0 2px;
 		color: white;
-
 	}
 	.fa-dribbble{
-		background-color:#CACACA;
+		background-color: #CACACA;
 	}
 	.fa-dribbble:hover{
-		background-color:#e55757;
+		background-color: #e55757;
 	}
 	.fa-instagram{
-		background-color:#CACACA;
+		background-color: #CACACA;
 	}
 	.fa-instagram:hover{
-		background-color:#e66c13;
+		background-color: #e66c13;
 	}
 	.fa-linkedin{
-		background-color:#CACACA;
+		background-color: #CACACA;
 	}
 	.fa-linkedin:hover{
-		background-color:#1869a7;
+		background-color: #1869a7;
 	}
 	.fa-github-alt{
-		background-color:#CACACA;
+		background-color: #CACACA;
 	}
 	.fa-github-alt:hover{
-		background-color:#44b4b5;
+		background-color: #44b4b5;
 	}
 	.fa-coffee{
-		background-color:#CACACA;
+		background-color: #CACACA;
 	}
 	.fa-coffee:hover{
-		background-color:#2689bc;
+		background-color: #2689bc;
 	}
 	.fa-flickr{
-		background-color:#CACACA;
+		background-color: #CACACA;
 	}
 	.fa-flickr:hover{
-		background-color:#eb3862;
+		background-color: #eb3862;
 	}
 }
 .socialIcons-about {
 	vertical-align: middle;
 	color: #ffffff;
-	font-weight:600;
+	font-weight: 600;
 	font-size: 14px;
 
 	.fa{
@@ -125,46 +116,46 @@ $ig_background_color:#fffff;
 		height: 23px;
 		line-height: 23px;
 		text-align: center;
-		background:#c0bebe;
+		background: #c0bebe;
 		border-radius: 100%;
 		color: white;
 		margin: 0 2px;
 	}
 	.fa-dribbble{
-		background-color:#f37d7d;
+		background-color: #f37d7d;
 	}
 	.fa-dribbble:hover{
-		background-color:#e55757;
+		background-color: #e55757;
 	}
 	.fa-instagram{
-		background-color:#f5a062;
+		background-color: #f5a062;
 	}
 	.fa-instagram:hover{
-		background-color:#e66c13;
+		background-color: #e66c13;
 	}
 	.fa-linkedin{
-		background-color:#79afd9;
+		background-color: #79afd9;
 	}
 	.fa-linkedin:hover{
-		background-color:#1869a7;
+		background-color: #1869a7;
 	}
 	.fa-github-alt{
-		background-color:#73c8c9;
+		background-color: #73c8c9;
 	}
 	.fa-github-alt:hover{
-		background-color:#44b4b5;
+		background-color: #44b4b5;
 	}
 	.fa-coffee{
-		background-color:#67b3db;
+		background-color: #67b3db;
 	}
 	.fa-coffee:hover{
-		background-color:#2689bc;
+		background-color: #2689bc;
 	}
 	.fa-pagelines{
-		background-color:#f1a2b4;
+		background-color: #f1a2b4;
 	}
 	.fa-pagelines:hover{
-		background-color:#eb3862;
+		background-color: #eb3862;
 	}
 }
 
