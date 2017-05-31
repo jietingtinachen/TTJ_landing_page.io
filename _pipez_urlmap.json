@@ -2,18 +2,18 @@
   "assets": {
     "about.html": {
       "path": "about.html",
-      "hash": "46916943a88eb315b88138d0bbcead1a41996ab64284028678b1d3bfea73c2f4",
-      "integrity": "sha256-RpFpQ6iOsxW4gTjQu86tGkGZarZChAKGeLHTv+pzwvQ="
+      "hash": "299848852ad357183fdef1dbb75788066645a0205943ccb5ef5a4595f36aba21",
+      "integrity": "sha256-KZhIhSrTVxg/3vHbt1eIBmZFoCBZQ8y171pFlfNquiE="
     },
     "index.html": {
       "path": "index.html",
-      "hash": "5fd5c271743f91428831443130419c8759a19691d0f5d7930faf23feefb40714",
-      "integrity": "sha256-X9XCcXQ/kUKIMUQxMEGch1mhlpHQ9deTD68j/u+0BxQ="
+      "hash": "67e5efd125972f4b541a5a7e9dd958fe1b7ca157536e57ee6bb7bc1f31724ca5",
+      "integrity": "sha256-Z+Xv0SWXL0tUGlp+ndlY/ht8oVdTblfua7e8HzFyTKU="
     },
     "static/css/base.css": {
       "path": "static/css/base.css",
-      "hash": "af34357a1329f9b6c3c6081b6c348d25be88a2db684d85e3e60b92a6a698c6dc",
-      "integrity": "sha256-rzQ1ehMp+bbDxggbbDSNJb6IottoTYXj5guSpqaYxtw="
+      "hash": "1762b399da01f286bc7ed5e2df11d35b5695101bdf69d3a8c6e53c86bdcc053f",
+      "integrity": "sha256-F2KzmdoB8oa8ftXi3xHTW1aVEBvfadOoxuU8hr3MBT8="
     },
     "static/css/font-awesome.min.css": {
       "path": "static/css/font-awesome.min.css",
@@ -42,6 +42,11 @@
     },
     "static/fonts/fontawesome-webfont.woff": {
       "path": "static/fonts/fontawesome-webfont.woff",
+      "hash": "",
+      "integrity": ""
+    },
+    "static/img/logo.png": {
+      "path": "static/img/logo.png",
       "hash": "",
       "integrity": ""
     },

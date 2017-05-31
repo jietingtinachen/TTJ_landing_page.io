@@ -38,6 +38,7 @@
 (copy "static/css/font-awesome.min.css")
 (copy "static/js/jquery-1.11.3.min.js")
 (copy "static/fonts/FontAwesome.otf")
+(copy "static/img/logo.png")
 (copy "static/fonts/fontawesome-webfont.eot")
 (copy "static/fonts/fontawesome-webfont.svg")
 (copy "static/fonts/fontawesome-webfont.ttf")
@@ -47,7 +48,3 @@
 
 (page "index.html")
 (page "about.html")
-
-
-
-

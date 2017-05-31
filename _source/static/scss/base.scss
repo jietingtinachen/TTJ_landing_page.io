@@ -1,8 +1,6 @@
 @import "static/scss/_reset";
 @import "static/scss/_responsive";
-
-$BLUE: #0D5CA3;
-
+/*everything------------------------------*/
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -12,43 +10,49 @@ a {
 	text-decoration: none;
 	color: red;
 }
-
-$header_height: 120px;
-
-/*------------------------------*/
 body {
 	font-family:'Roboto', "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+/*veriables------------------------------*/
+$header_height: 120px;
+$BLUE: #0D5CA3;
+$footer_color: #313131;
+$demo_background_color:#28B2C9;
+$ig_background_color:#fffff;
+/*------------------------------*/
+.header {
+	background-color: $BLUE;
+	height:$header_height;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	padding-top: 20px;
+}
+.hero{
+	height: 800px;
+	background-color: $BLUE;
+	display: block;
+}
+.demo{
+	height: 800px;
+	background-color: $demo_background_color;
+	display: block;
+}
+.ig{
+	height: 800px;
+	background-color: $ig_background_color;
+	display: block;
 }
 .everything {
 	@include on-tablet-desktop {
 		padding-top: $header_height;
 	}
 }
-.frame900 {
-	margin: 0 auto; /*(horizatal center align)*/
-}
-@include on-desktop {
-	.frame900 {
-		max-width: 1150px;
-	}
-}
-@include on-tablet {
-	.frame900 {
-		max-width: 90%;
-   	}
-}
-@include on-mobile {
-	.frame900 {
-		width: 100%;
-	}
-}
 
 
-@include on-mobile {
-	.content {
-		padding-top: 66px;
-	}
-}
+
 
 
 .socialIcons {
@@ -165,18 +169,15 @@ body {
 }
 
 .footer{
-	height: 160px;
-	border-top: 1px dotted gray;
+	height: 100px;
 	padding-top: 16px;
 	font-size: 13px;
 	font-weight: 300;
+	color: #FFFFFF;
+	text-align: center;
 	display: block;
 	position: relative;
-	@include on-mobile {
-//		padding-top: 60px;
-		text-align: center;
-	}
-
+	background-color: $footer_color;
 	.socialIcons {
 		display: inline-block;
 		position: absolute;
@@ -187,10 +188,3 @@ body {
 		}
 	}
 }
-
-
-
-
-
-
-
